@@ -1,0 +1,492 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-06-23 15:17+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: bot/bot.py:96
+msgid "SQLite database initialized"
+msgstr ""
+
+#: bot/bot.py:105 bot/bot.py:716 bot/bot.py:793
+msgid "📋 My Habits"
+msgstr ""
+
+#: bot/bot.py:106
+msgid "➕ Create Habit"
+msgstr ""
+
+#: bot/bot.py:109
+msgid "📊 Statistics"
+msgstr ""
+
+#: bot/bot.py:110
+msgid "📈 Charts"
+msgstr ""
+
+#: bot/bot.py:113
+msgid "ℹ️ Help"
+msgstr ""
+
+#: bot/bot.py:121
+msgid "📅 Daily"
+msgstr ""
+
+#: bot/bot.py:122
+msgid "📅 Weekly"
+msgstr ""
+
+#: bot/bot.py:123
+msgid "📅 Monthly"
+msgstr ""
+
+#: bot/bot.py:124 bot/bot.py:553 bot/bot.py:642
+msgid "❌ Cancel"
+msgstr ""
+
+#: bot/bot.py:154 bot/bot.py:187 bot/bot.py:500
+msgid "🔙 Main Menu"
+msgstr ""
+
+#: bot/bot.py:184
+msgid "📊 Overview Chart"
+msgstr ""
+
+#: bot/bot.py:304
+#, python-brace-format
+msgid "Progress for Habit: {}"
+msgstr ""
+
+#: bot/bot.py:309
+msgid "Date"
+msgstr ""
+
+#: bot/bot.py:310
+msgid "Completion"
+msgstr ""
+
+#: bot/bot.py:327
+#, python-brace-format
+msgid "Completed: {}/{} days ({:.1f}%)"
+msgstr ""
+
+#: bot/bot.py:372
+msgid "Habit Completion Success (30 days)"
+msgstr ""
+
+#: bot/bot.py:374
+msgid "Completion Percentage (%)"
+msgstr ""
+
+#: bot/bot.py:389
+msgid "Current Streaks"
+msgstr ""
+
+#: bot/bot.py:390
+msgid "Consecutive Days"
+msgstr ""
+
+#: bot/bot.py:415
+msgid "friend"
+msgstr ""
+
+#: bot/bot.py:417
+#, python-brace-format
+msgid ""
+"\n"
+"🎯 Hello, {}! Welcome to Habit Tracker!\n"
+"\n"
+"This bot helps you track habits with detailed analytics and beautiful "
+"charts.\n"
+"\n"
+"📱 Features:\n"
+"• Create habits with custom settings\n"
+"• Track completions\n"
+"• Detailed statistics\n"
+"• Visual progress charts\n"
+"• Streak and trend calculations\n"
+"\n"
+"Choose an action:\n"
+"    "
+msgstr ""
+
+#: bot/bot.py:468
+#, python-brace-format
+msgid "❌ An error occurred: {}"
+msgstr ""
+
+#: bot/bot.py:474
+msgid ""
+"\n"
+"🎯 Habit Tracker - Main Menu\n"
+"\n"
+"Choose an action:\n"
+"    "
+msgstr ""
+
+#: bot/bot.py:493
+msgid ""
+"\n"
+"📝 You don't have any active habits yet.\n"
+"\n"
+"Create your first habit using the \"➕ Create Habit\" button!\n"
+"        "
+msgstr ""
+
+#: bot/bot.py:506
+msgid ""
+"📋 Your active habits:\n"
+"\n"
+msgstr ""
+
+#: bot/bot.py:525
+msgid "Created"
+msgstr ""
+
+#: bot/bot.py:528
+msgid "Click a habit to mark it as completed:"
+msgstr ""
+
+#: bot/bot.py:540
+msgid ""
+"\n"
+"➕ Creating a new habit\n"
+"\n"
+"**Step 1/3:** Enter the habit name\n"
+"\n"
+"Examples:\n"
+"• Morning exercise\n"
+"• Reading books\n"
+"• Meditation\n"
+"• Language learning\n"
+"    "
+msgstr ""
+
+#: bot/bot.py:572
+msgid "❌ Name too long (max 100 characters). Try again:"
+msgstr ""
+
+#: bot/bot.py:580
+#, python-brace-format
+msgid ""
+"\n"
+"✅ **Name:** {}\n"
+"\n"
+"**Step 2/3:** Choose the frequency:\n"
+"        "
+msgstr ""
+
+#: bot/bot.py:595
+msgid "❌ Description too long (max 500 characters). Try again:"
+msgstr ""
+
+#: bot/bot.py:616 bot/bot.py:694 bot/bot.py:771
+msgid "Daily"
+msgstr ""
+
+#: bot/bot.py:617 bot/bot.py:695 bot/bot.py:772
+msgid "Weekly"
+msgstr ""
+
+#: bot/bot.py:618 bot/bot.py:696 bot/bot.py:773
+msgid "Monthly"
+msgstr ""
+
+#: bot/bot.py:630
+#, python-brace-format
+msgid ""
+"\n"
+"✅ **Name:** {}\n"
+"✅ **Frequency:** {}\n"
+"\n"
+"**Step 3/3:** Enter a description for the habit (optional)\n"
+"\n"
+"A description helps clarify the goal and motivation.\n"
+"    "
+msgstr ""
+
+#: bot/bot.py:641
+msgid "⏭️ Skip"
+msgstr ""
+
+#: bot/bot.py:700 bot/bot.py:777
+#, python-brace-format
+msgid ""
+"\n"
+"🎉 **Habit successfully created!**\n"
+"\n"
+"✅ **Name:** {}\n"
+"✅ **Description:** {}\n"
+"✅ **Frequency:** {}\n"
+"\n"
+"You can now start tracking it! 🚀\n"
+"        "
+msgstr ""
+
+#: bot/bot.py:711 bot/bot.py:788
+msgid "not specified"
+msgstr ""
+
+#: bot/bot.py:717 bot/bot.py:794 bot/bot.py:909
+msgid "🏠 Main Menu"
+msgstr ""
+
+#: bot/bot.py:730 bot/bot.py:807
+#, python-brace-format
+msgid "❌ Error creating habit: {}"
+msgstr ""
+
+#: bot/bot.py:821 bot/bot.py:1078
+msgid "❌ Habit not found"
+msgstr ""
+
+#: bot/bot.py:838
+#, python-brace-format
+msgid ""
+"\n"
+"✅ **Habit '{}' already completed today!**\n"
+"\n"
+"⏰ Completion time: {}\n"
+"🎉 Great job! Keep it up!\n"
+"                "
+msgstr ""
+
+#: bot/bot.py:848 bot/bot.py:906
+msgid "🔙 Back to Habits"
+msgstr ""
+
+#: bot/bot.py:863
+#, python-brace-format
+msgid "Completed via Telegram bot by user {}"
+msgstr ""
+
+#: bot/bot.py:884
+#, python-brace-format
+msgid ""
+"\n"
+"🎉 **Congratulations! Habit completed!**\n"
+"\n"
+"✅ **{}**\n"
+"⏰ Time: {}\n"
+"🔥 Current streak: **{}** days\n"
+"🏆 Longest streak: **{}** days\n"
+"📈 Total completions: **{}**\n"
+"\n"
+"Keep up the great work! 💪\n"
+"        "
+msgstr ""
+
+#: bot/bot.py:919
+#, python-brace-format
+msgid "❌ Error marking habit: {}"
+msgstr ""
+
+#: bot/bot.py:933
+msgid ""
+"\n"
+"📊 No habits available for statistics.\n"
+"\n"
+"Create your first habit!\n"
+"            "
+msgstr ""
+
+#: bot/bot.py:940 bot/bot.py:1005 bot/bot.py:1035 bot/bot.py:1166
+msgid "🔙 Back"
+msgstr ""
+
+#: bot/bot.py:946
+msgid ""
+"📊 **Detailed Habit Statistics:**\n"
+"\n"
+msgstr ""
+
+#: bot/bot.py:972
+msgid "Completions"
+msgstr ""
+
+#: bot/bot.py:975
+msgid "Current Streak"
+msgstr ""
+
+#: bot/bot.py:975 bot/bot.py:978 bot/bot.py:981 bot/bot.py:1001
+msgid "days"
+msgstr ""
+
+#: bot/bot.py:978
+msgid "Longest Streak"
+msgstr ""
+
+#: bot/bot.py:981
+msgid "Success Rate"
+msgstr ""
+
+#: bot/bot.py:986
+msgid "Last"
+msgstr ""
+
+#: bot/bot.py:994
+msgid "Overall Statistics"
+msgstr ""
+
+#: bot/bot.py:995
+msgid "Total Habits"
+msgstr ""
+
+#: bot/bot.py:997
+msgid "Completed Today"
+msgstr ""
+
+#: bot/bot.py:999
+msgid "Total Completions"
+msgstr ""
+
+#: bot/bot.py:1001
+msgid "Sum of Current Streaks"
+msgstr ""
+
+#: bot/bot.py:1015
+#, python-brace-format
+msgid "❌ Error retrieving statistics: {}"
+msgstr ""
+
+#: bot/bot.py:1028
+msgid ""
+"\n"
+"📈 No habits available for charts.\n"
+"\n"
+"Create your first habit!\n"
+"        "
+msgstr ""
+
+#: bot/bot.py:1042
+msgid ""
+"\n"
+"📈 **Progress Charts**\n"
+"\n"
+"Select a habit to view its detailed chart or choose the overview:\n"
+"    "
+msgstr ""
+
+#: bot/bot.py:1063
+msgid ""
+"📊 **Overview of All Habits**\n"
+"\n"
+"Charts show completion success over the last 30 days and current streaks."
+msgstr ""
+
+#: bot/bot.py:1068 bot/bot.py:1109
+msgid "❌ Unable to create chart"
+msgstr ""
+
+#: bot/bot.py:1086
+#, python-brace-format
+msgid ""
+"\n"
+"📈 **Chart for Habit: {}**\n"
+"\n"
+"📊 Statistics for 30 days:\n"
+"• ✅ Completions: {}\n"
+"• 🔥 Current Streak: {} days\n"
+"• 🏆 Longest Streak: {} days\n"
+"• 📈 Success Rate: {:.1f}%\n"
+"                "
+msgstr ""
+
+#: bot/bot.py:1114
+msgid "🔙 Back to Charts"
+msgstr ""
+
+#: bot/bot.py:1120
+msgid "📈 Chart sent above ⬆️"
+msgstr ""
+
+#: bot/bot.py:1126
+#, python-brace-format
+msgid "❌ Error creating chart: {}"
+msgstr ""
+
+#: bot/bot.py:1132
+msgid ""
+"\n"
+"🆘 **Habit Tracker Help**\n"
+"\n"
+"🎯 **What is it?**\n"
+"A Telegram bot for tracking habits with detailed analytics and visual "
+"charts.\n"
+"\n"
+"📱 **Features:**\n"
+"• Create habits with custom settings\n"
+"• Track daily completions\n"
+"• Calculate streaks and statistics\n"
+"• Visual progress charts\n"
+"• Analyze trends and success rates\n"
+"\n"
+"🚀 **How to use:**\n"
+"1. **Create a habit** - specify name, frequency, and description\n"
+"2. **Mark completions** - click the button daily\n"
+"3. **Track progress** - view statistics and charts\n"
+"4. **Analyze results** - use data to improve\n"
+"\n"
+"📊 **Chart Types:**\n"
+"• Individual charts for each habit\n"
+"• Overview of all habits\n"
+"• Success and streak diagrams\n"
+"\n"
+"💡 **Tips:**\n"
+"• Create realistic habits\n"
+"• Mark completions immediately\n"
+"• Use charts for motivation\n"
+"• Analyze your patterns\n"
+"\n"
+"Good luck building your habits! 🚀\n"
+"    "
+msgstr ""
+
+#: bot/bot.py:1184
+msgid "Starting advanced Telegram bot..."
+msgstr ""
+
+#: bot/bot.py:1205
+msgid "✅ Advanced bot configured and ready to run!"
+msgstr ""
+
+#: bot/bot.py:1206
+msgid "📱 Find the bot in Telegram: @TrackerHabit_Pythonbot"
+msgstr ""
+
+#: bot/bot.py:1208
+msgid "🎛️ Features: habit creation, statistics, charts!"
+msgstr ""
+
+#: bot/bot.py:1210
+msgid "🔄 Starting polling..."
+msgstr ""
+
+#: bot/bot.py:1216
+msgid "Bot is polling and running..."
+msgstr ""
+
+#: bot/bot.py:1228
+msgid "Bot shutdown completed"
+msgstr ""
+
+#: bot/bot.py:1240
+msgid "🛑 Bot stopped by user"
+msgstr ""
+
