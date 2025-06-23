@@ -1,0 +1,49 @@
+[project]
+name = "habit-tracker"
+version = "0.1.0"
+description = "Habit tracking application with Telegram bot and FastAPI server"
+authors = [
+    { name = "Yuri Kirnev", email = "your.email@example.com" },
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-telegram-bot>=21.0.1",
+    "aiosqlite>=0.17.0",
+    "python-dotenv>=1.0.1",
+    "matplotlib>=3.8.4",
+    "pandas>=2.2.2",
+    "pydantic>=2.6.4",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.6",
+    "babel>=2.15.0",
+]
+
+[project.scripts]
+habit-tracker-bot = "bot.bot:main"
+habit-tracker-api = "server:main"
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "habit-tracker"
+version = "0.1.0"
+description = "Habit tracking application with Telegram bot and FastAPI server"
+authors = ["Yuri Kirnev <your.email@example.com>"]
+
+[tool.flake8]
+max-line-length = 120
+exclude = ["venv/", "dist/", "build/"]
+ignore = ["E203", "W503"]
+
+[tool.pydocstyle]
+convention = "pep257"
+ignore = ["D107"]
+
+[tool.mypy]
+strict = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]

@@ -1,0 +1,10 @@
+*.mo
+dist/
+build/
+docs/
+*.db
+__pycache__/
+*.pyc
+.env
+.idea/
+.DS_Store
