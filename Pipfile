@@ -13,6 +13,7 @@ python-telegram-bot = "*"
 aiosqlite = "*"
 python-dotenv = "*"
 sphinx = "*"
+build = "*"
 
 [dev-packages]
 

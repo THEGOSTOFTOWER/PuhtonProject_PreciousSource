@@ -1,9 +1,14 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
 [project]
 name = "habit-tracker"
 version = "0.1.0"
 description = "Habit tracking application with Telegram bot and FastAPI server"
 authors = [
-    { name = "Yuri Kirnev", email = "your.email@example.com" },
+    { name = "_", email = "your.email@example.com" },
 ]
 readme = "README.md"
 requires-python = ">=3.12"
@@ -20,22 +25,16 @@ dependencies = [
 ]
 
 [project.scripts]
-habit-tracker-bot = "bot.bot:main"
-habit-tracker-api = "server:main"
-
-[build-system]
-requires = ["poetry-core>=1.9.0"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-name = "habit-tracker"
-version = "0.1.0"
-description = "Habit tracking application with Telegram bot and FastAPI server"
-authors = ["Yuri Kirnev <your.email@example.com>"]
+habit-tracker-bot = "habit.bot.__main__:main"
 
 
-[tool.mypy]
-strict = true
-ignore_missing_imports = true
+[tool.setuptools.package-dir]
+"habit" = "habit"
 
-[tool.pytest.ini_options]
+
+
+[tool.setuptools.package-data]
+"habit" = ["locale/*/*/*.mo", "locale/*/*/*.po", "bot/*.py",
+"docs/html/*.html",
+"docs/html/**/*",]
+

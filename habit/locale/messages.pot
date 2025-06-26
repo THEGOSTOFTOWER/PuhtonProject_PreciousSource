@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-26 18:25+0300\n"
+"POT-Creation-Date: 2025-06-26 19:22+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,102 +17,102 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: habit/bot/__init__.py:108 habit/bot/__init__.py:629
-#: habit/bot/__init__.py:680
+#: habit/bot/__init__.py:113 habit/bot/__init__.py:634
+#: habit/bot/__init__.py:685
 msgid "My Habits"
 msgstr ""
 
-#: habit/bot/__init__.py:109
+#: habit/bot/__init__.py:114
 msgid "Create Habit"
 msgstr ""
 
-#: habit/bot/__init__.py:112
+#: habit/bot/__init__.py:117
 msgid "Statistics"
 msgstr ""
 
-#: habit/bot/__init__.py:113
+#: habit/bot/__init__.py:118
 msgid "Charts"
 msgstr ""
 
-#: habit/bot/__init__.py:115
+#: habit/bot/__init__.py:120
 msgid "Help"
 msgstr ""
 
-#: habit/bot/__init__.py:133
+#: habit/bot/__init__.py:138
 msgid "Daily"
 msgstr ""
 
-#: habit/bot/__init__.py:134
+#: habit/bot/__init__.py:139
 msgid "Weekly"
 msgstr ""
 
-#: habit/bot/__init__.py:135
+#: habit/bot/__init__.py:140
 msgid "Monthly"
 msgstr ""
 
-#: habit/bot/__init__.py:136 habit/bot/__init__.py:514
-#: habit/bot/__init__.py:574
+#: habit/bot/__init__.py:141 habit/bot/__init__.py:519
+#: habit/bot/__init__.py:579
 msgid "Cancel"
 msgstr ""
 
-#: habit/bot/__init__.py:151 habit/bot/__init__.py:166
-#: habit/bot/__init__.py:478 habit/bot/__init__.py:630
-#: habit/bot/__init__.py:681 habit/bot/__init__.py:753
-#: habit/bot/__init__.py:771 habit/bot/__init__.py:808
-#: habit/bot/__init__.py:824 habit/bot/__init__.py:898
+#: habit/bot/__init__.py:156 habit/bot/__init__.py:171
+#: habit/bot/__init__.py:483 habit/bot/__init__.py:635
+#: habit/bot/__init__.py:686 habit/bot/__init__.py:758
+#: habit/bot/__init__.py:776 habit/bot/__init__.py:813
+#: habit/bot/__init__.py:829 habit/bot/__init__.py:903
 msgid "Main Menu"
 msgstr ""
 
-#: habit/bot/__init__.py:165
+#: habit/bot/__init__.py:170
 msgid "Overview Chart"
 msgstr ""
 
-#: habit/bot/__init__.py:271
+#: habit/bot/__init__.py:276
 #, python-brace-format
 msgid "Progress for {}"
 msgstr ""
 
-#: habit/bot/__init__.py:272
+#: habit/bot/__init__.py:277
 msgid "Date"
 msgstr ""
 
-#: habit/bot/__init__.py:273
+#: habit/bot/__init__.py:278
 msgid "Completion"
 msgstr ""
 
-#: habit/bot/__init__.py:281
+#: habit/bot/__init__.py:286
 #, python-brace-format
 msgid "Completed: {}/{} days ({:.1f}%)"
 msgstr ""
 
-#: habit/bot/__init__.py:316
+#: habit/bot/__init__.py:321
 msgid "Completion Rate (30 days)"
 msgstr ""
 
-#: habit/bot/__init__.py:317
+#: habit/bot/__init__.py:322
 msgid "Percentage (%)"
 msgstr ""
 
-#: habit/bot/__init__.py:324
+#: habit/bot/__init__.py:329
 msgid "Current Streaks"
 msgstr ""
 
-#: habit/bot/__init__.py:325
+#: habit/bot/__init__.py:330
 msgid "Days"
 msgstr ""
 
-#: habit/bot/__init__.py:350
+#: habit/bot/__init__.py:355
 msgid ""
 "🌐 Welcome to Habit Tracker!\n"
 "\n"
 "Please select your preferred language:"
 msgstr ""
 
-#: habit/bot/__init__.py:357 habit/bot/__init__.py:401
+#: habit/bot/__init__.py:362 habit/bot/__init__.py:406
 msgid "Friend"
 msgstr ""
 
-#: habit/bot/__init__.py:359
+#: habit/bot/__init__.py:364
 #, python-brace-format
 msgid ""
 "🎯 Hello, {}! Welcome to Habit Tracker!\n"
@@ -121,7 +121,7 @@ msgid ""
 "Choose an action:"
 msgstr ""
 
-#: habit/bot/__init__.py:403
+#: habit/bot/__init__.py:408
 #, python-brace-format
 msgid ""
 "🎯 Hello, {}! Language set to {}.\n"
@@ -130,49 +130,49 @@ msgid ""
 "Choose an action:"
 msgstr ""
 
-#: habit/bot/__init__.py:411
+#: habit/bot/__init__.py:416
 msgid "Welcome to Habit Tracker!"
 msgstr ""
 
-#: habit/bot/__init__.py:418
+#: habit/bot/__init__.py:423
 msgid "🌐 Select your preferred language:"
 msgstr ""
 
-#: habit/bot/__init__.py:458 habit/bot/__init__.py:759
-#: habit/bot/__init__.py:813 habit/bot/__init__.py:877
+#: habit/bot/__init__.py:463 habit/bot/__init__.py:764
+#: habit/bot/__init__.py:818 habit/bot/__init__.py:882
 #, python-brace-format
 msgid "❌ Error: {}"
 msgstr ""
 
-#: habit/bot/__init__.py:463
+#: habit/bot/__init__.py:468
 msgid ""
 "🎯 Habit Tracker - Main Menu\n"
 "\n"
 "Choose an action:"
 msgstr ""
 
-#: habit/bot/__init__.py:477
+#: habit/bot/__init__.py:482
 msgid ""
 "📝 No active habits.\n"
 "\n"
 "Create your first habit!"
 msgstr ""
 
-#: habit/bot/__init__.py:483
+#: habit/bot/__init__.py:488
 msgid ""
 "📋 Your active habits:\n"
 "\n"
 msgstr ""
 
-#: habit/bot/__init__.py:499
+#: habit/bot/__init__.py:504
 msgid "Created"
 msgstr ""
 
-#: habit/bot/__init__.py:501
+#: habit/bot/__init__.py:506
 msgid "Click a habit to mark it as completed:"
 msgstr ""
 
-#: habit/bot/__init__.py:510
+#: habit/bot/__init__.py:515
 msgid ""
 "➕ Create a new habit\n"
 "\n"
@@ -184,11 +184,11 @@ msgid ""
 "• Meditation"
 msgstr ""
 
-#: habit/bot/__init__.py:531
+#: habit/bot/__init__.py:536
 msgid "❌ Name too long (max 100 chars). Try again:"
 msgstr ""
 
-#: habit/bot/__init__.py:536
+#: habit/bot/__init__.py:541
 #, python-brace-format
 msgid ""
 "✅ Name: {}\n"
@@ -196,11 +196,11 @@ msgid ""
 "📖 **Step 2/3**: Choose the frequency:"
 msgstr ""
 
-#: habit/bot/__init__.py:544
+#: habit/bot/__init__.py:549
 msgid "❌ Description too long (max 500 chars). Try again:"
 msgstr ""
 
-#: habit/bot/__init__.py:568
+#: habit/bot/__init__.py:573
 #, python-brace-format
 msgid ""
 "✅ Name: {}\n"
@@ -209,11 +209,11 @@ msgid ""
 "📖 **Step 3/3**: Enter a description (optional)"
 msgstr ""
 
-#: habit/bot/__init__.py:573
+#: habit/bot/__init__.py:578
 msgid "Skip"
 msgstr ""
 
-#: habit/bot/__init__.py:618 habit/bot/__init__.py:669
+#: habit/bot/__init__.py:623 habit/bot/__init__.py:674
 #, python-brace-format
 msgid ""
 "🎉 Habit created!\n"
@@ -225,24 +225,24 @@ msgid ""
 "Start tracking now!"
 msgstr ""
 
-#: habit/bot/__init__.py:625 habit/bot/__init__.py:676
+#: habit/bot/__init__.py:630 habit/bot/__init__.py:681
 msgid "None"
 msgstr ""
 
-#: habit/bot/__init__.py:626 habit/bot/__init__.py:677
+#: habit/bot/__init__.py:631 habit/bot/__init__.py:682
 msgid "frequency"
 msgstr ""
 
-#: habit/bot/__init__.py:637 habit/bot/__init__.py:688
+#: habit/bot/__init__.py:642 habit/bot/__init__.py:693
 #, python-brace-format
 msgid "❌ Error creating habit: {}"
 msgstr ""
 
-#: habit/bot/__init__.py:699 habit/bot/__init__.py:852
+#: habit/bot/__init__.py:704 habit/bot/__init__.py:857
 msgid "❌ Habit not found"
 msgstr ""
 
-#: habit/bot/__init__.py:713
+#: habit/bot/__init__.py:718
 #, python-brace-format
 msgid ""
 "✅ {} already completed today!\n"
@@ -251,16 +251,16 @@ msgid ""
 "Keep it up!"
 msgstr ""
 
-#: habit/bot/__init__.py:717 habit/bot/__init__.py:752
+#: habit/bot/__init__.py:722 habit/bot/__init__.py:757
 msgid "Back to Habits"
 msgstr ""
 
-#: habit/bot/__init__.py:726
+#: habit/bot/__init__.py:731
 #, python-brace-format
 msgid "Completed by {}"
 msgstr ""
 
-#: habit/bot/__init__.py:742
+#: habit/bot/__init__.py:747
 #, python-brace-format
 msgid ""
 "🎉 {} completed!\n"
@@ -271,90 +271,90 @@ msgid ""
 "📈 Total: {} times"
 msgstr ""
 
-#: habit/bot/__init__.py:770
+#: habit/bot/__init__.py:775
 msgid ""
 "📊 No habits available.\n"
 "\n"
 "Create your first habit!"
 msgstr ""
 
-#: habit/bot/__init__.py:776
+#: habit/bot/__init__.py:781
 msgid ""
 "📊 Habit Statistics:\n"
 "\n"
 msgstr ""
 
-#: habit/bot/__init__.py:792
+#: habit/bot/__init__.py:797
 msgid "Completions"
 msgstr ""
 
-#: habit/bot/__init__.py:793
+#: habit/bot/__init__.py:798
 msgid "Streak"
 msgstr ""
 
-#: habit/bot/__init__.py:793 habit/bot/__init__.py:794
-#: habit/bot/__init__.py:795 habit/bot/__init__.py:806
+#: habit/bot/__init__.py:798 habit/bot/__init__.py:799
+#: habit/bot/__init__.py:800 habit/bot/__init__.py:811
 msgid "days"
 msgstr ""
 
-#: habit/bot/__init__.py:794
+#: habit/bot/__init__.py:799
 msgid "Longest"
 msgstr ""
 
-#: habit/bot/__init__.py:795
+#: habit/bot/__init__.py:800
 msgid "Rate"
 msgstr ""
 
-#: habit/bot/__init__.py:797
+#: habit/bot/__init__.py:802
 msgid "Last"
 msgstr ""
 
-#: habit/bot/__init__.py:802
+#: habit/bot/__init__.py:807
 msgid "Overall"
 msgstr ""
 
-#: habit/bot/__init__.py:803
+#: habit/bot/__init__.py:808
 msgid "Habits"
 msgstr ""
 
-#: habit/bot/__init__.py:804
+#: habit/bot/__init__.py:809
 msgid "Today"
 msgstr ""
 
-#: habit/bot/__init__.py:805
+#: habit/bot/__init__.py:810
 msgid "Total"
 msgstr ""
 
-#: habit/bot/__init__.py:806
+#: habit/bot/__init__.py:811
 msgid "Streaks"
 msgstr ""
 
-#: habit/bot/__init__.py:823
+#: habit/bot/__init__.py:828
 msgid ""
 "📈 No habits for charts.\n"
 "\n"
 "Create your first habit!"
 msgstr ""
 
-#: habit/bot/__init__.py:829
+#: habit/bot/__init__.py:834
 msgid ""
 "📈 Progress Charts\n"
 "\n"
 "Select a habit or view overview:"
 msgstr ""
 
-#: habit/bot/__init__.py:842
+#: habit/bot/__init__.py:847
 msgid ""
 "📊 Overview of all habits\n"
 "\n"
 "Shows completion rates and streaks."
 msgstr ""
 
-#: habit/bot/__init__.py:845 habit/bot/__init__.py:870
+#: habit/bot/__init__.py:850 habit/bot/__init__.py:875
 msgid "❌ Unable to generate chart"
 msgstr ""
 
-#: habit/bot/__init__.py:859
+#: habit/bot/__init__.py:864
 #, python-brace-format
 msgid ""
 "📈 Chart for {}\n"
@@ -365,15 +365,15 @@ msgid ""
 "📈 Rate: {:.1f}%"
 msgstr ""
 
-#: habit/bot/__init__.py:872
+#: habit/bot/__init__.py:877
 msgid "Back to Charts"
 msgstr ""
 
-#: habit/bot/__init__.py:874
+#: habit/bot/__init__.py:879
 msgid "📈 Chart sent above"
 msgstr ""
 
-#: habit/bot/__init__.py:883
+#: habit/bot/__init__.py:888
 msgid ""
 "🆘 Habit Tracker Help\n"
 "\n"
@@ -396,11 +396,11 @@ msgid ""
 "Good luck! 🚀"
 msgstr ""
 
-#: habit/bot/__init__.py:912
+#: habit/bot/__init__.py:917
 msgid "❌ Bot error. Try again later."
 msgstr ""
 
-#: habit/bot/__init__.py:917
+#: habit/bot/__init__.py:922
 msgid "Starting bot..."
 msgstr ""
 

@@ -9,6 +9,7 @@ import os
 import sys
 import io
 import logging
+from pathlib import Path
 from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 import uuid
@@ -43,9 +44,13 @@ logger.setLevel(logging.CRITICAL)
 load_dotenv()
 
 # Configuration
-TELEGRAM_BOT_TOKEN: Optional[str] = os.getenv("TELEGRAM_BOT_TOKEN")
-DB_PATH: str = os.getenv("DB_PATH", "habits.db")
-DEFAULT_LANGUAGE: str = os.getenv("BOT_LANGUAGE", "ru")
+TELEGRAM_BOT_TOKEN='7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y'
+
+DB_PATH='habits.db'
+
+DEFAULT_LANGUAGE='ru'
+
+BASE_DIR = Path(__file__).parent.parent
 
 if not TELEGRAM_BOT_TOKEN:
     logger.error("❌ TELEGRAM_BOT_TOKEN not found")
@@ -376,20 +381,20 @@ def get_translation(lang: str) -> callable:
     try:
         logger.info(f"Attempting to load translation for language: {lang}")
         _translations[lang] = gettext.translation(
-            "messages", "habit/locale", languages=[lang]
+            "messages", f"{BASE_DIR}/locale", languages=[lang]
         )
         logger.info(f"Successfully loaded translation for {lang}")
     except FileNotFoundError as e:
         logger.error(f"Translation file for {lang} not found: {e}")
         logger.warning(f"Falling back to English for language: {lang}")
         _translations[lang] = gettext.translation(
-            "messages", "habit/locale", languages=["en"], fallback=True
+            "messages", f"{BASE_DIR}/locale", languages=["en"], fallback=True
         )
     except Exception as e:
         logger.error(f"Error loading translation for {lang}: {e}")
         logger.warning(f"Falling back to English for language: {lang}")
         _translations[lang] = gettext.translation(
-            "messages", "habit/locale", languages=["en"], fallback=True
+            "messages", f"{BASE_DIR}/locale", languages=["en"], fallback=True
         )
     return _translations[lang].gettext
 
