@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-06-26 16:43+0300\n"
+"POT-Creation-Date: 2025-06-26 17:13+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -19,86 +19,88 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: bot/bot.py:105 bot/bot.py:626 bot/bot.py:677
+#: habit/bot/bot.py:107 habit/bot/bot.py:628 habit/bot/bot.py:679
 msgid "My Habits"
 msgstr "Мои привычки"
 
-#: bot/bot.py:106
+#: habit/bot/bot.py:108
 msgid "Create Habit"
 msgstr "Создать привычку"
 
-#: bot/bot.py:109
+#: habit/bot/bot.py:111
 msgid "Statistics"
 msgstr "Статистика"
 
-#: bot/bot.py:110
+#: habit/bot/bot.py:112
 msgid "Charts"
 msgstr "Графики"
 
-#: bot/bot.py:112
+#: habit/bot/bot.py:114
 msgid "Help"
 msgstr "Помощь"
 
-#: bot/bot.py:130
+#: habit/bot/bot.py:132
 msgid "Daily"
 msgstr "Ежедневно"
 
-#: bot/bot.py:131
+#: habit/bot/bot.py:133
 msgid "Weekly"
 msgstr "Еженедельно"
 
-#: bot/bot.py:132
+#: habit/bot/bot.py:134
 msgid "Monthly"
 msgstr "Ежемесячно"
 
-#: bot/bot.py:133 bot/bot.py:511 bot/bot.py:571
+#: habit/bot/bot.py:135 habit/bot/bot.py:513 habit/bot/bot.py:573
 msgid "Cancel"
 msgstr "Отмена"
 
-#: bot/bot.py:148 bot/bot.py:163 bot/bot.py:475 bot/bot.py:627 bot/bot.py:678
-#: bot/bot.py:750 bot/bot.py:768 bot/bot.py:805 bot/bot.py:821 bot/bot.py:895
+#: habit/bot/bot.py:150 habit/bot/bot.py:165 habit/bot/bot.py:477
+#: habit/bot/bot.py:629 habit/bot/bot.py:680 habit/bot/bot.py:752
+#: habit/bot/bot.py:770 habit/bot/bot.py:807 habit/bot/bot.py:823
+#: habit/bot/bot.py:897
 msgid "Main Menu"
 msgstr "Главное меню"
 
-#: bot/bot.py:162
+#: habit/bot/bot.py:164
 msgid "Overview Chart"
 msgstr "Обзорный график"
 
-#: bot/bot.py:268
+#: habit/bot/bot.py:270
 #, python-brace-format
 msgid "Progress for {}"
 msgstr "Прогресс для {}"
 
-#: bot/bot.py:269
+#: habit/bot/bot.py:271
 msgid "Date"
 msgstr "Дата"
 
-#: bot/bot.py:270
+#: habit/bot/bot.py:272
 msgid "Completion"
 msgstr "Выполнение"
 
-#: bot/bot.py:278
+#: habit/bot/bot.py:280
 #, python-brace-format
 msgid "Completed: {}/{} days ({:.1f}%)"
 msgstr "Выполнено: {}/{} дней ({:.1f}%)"
 
-#: bot/bot.py:313
+#: habit/bot/bot.py:315
 msgid "Completion Rate (30 days)"
 msgstr "Процент выполнения (30 дней)"
 
-#: bot/bot.py:314
+#: habit/bot/bot.py:316
 msgid "Percentage (%)"
 msgstr "Процент (%)"
 
-#: bot/bot.py:321
+#: habit/bot/bot.py:323
 msgid "Current Streaks"
 msgstr "Текущие серии"
 
-#: bot/bot.py:322
+#: habit/bot/bot.py:324
 msgid "Days"
 msgstr "Дни"
 
-#: bot/bot.py:347
+#: habit/bot/bot.py:349
 msgid ""
 "🌐 Welcome to Habit Tracker!\n"
 "\n"
@@ -108,11 +110,11 @@ msgstr ""
 "\n"
 "Выберите предпочитаемый язык:"
 
-#: bot/bot.py:354 bot/bot.py:398
+#: habit/bot/bot.py:356 habit/bot/bot.py:400
 msgid "Friend"
 msgstr "Друг"
 
-#: bot/bot.py:356
+#: habit/bot/bot.py:358
 #, python-brace-format
 msgid ""
 "🎯 Hello, {}! Welcome to Habit Tracker!\n"
@@ -125,7 +127,7 @@ msgstr ""
 "Отслеживайте свои привычки с аналитикой и графиками.\n"
 "Выберите действие:"
 
-#: bot/bot.py:400
+#: habit/bot/bot.py:402
 #, python-brace-format
 msgid ""
 "🎯 Hello, {}! Language set to {}.\n"
@@ -138,20 +140,21 @@ msgstr ""
 "Отслеживайте свои привычки с аналитикой и графиками.\n"
 "Выберите действие:"
 
-#: bot/bot.py:408
+#: habit/bot/bot.py:410
 msgid "Welcome to Habit Tracker!"
 msgstr "Добро пожаловать в Habit Tracker!"
 
-#: bot/bot.py:415
+#: habit/bot/bot.py:417
 msgid "🌐 Select your preferred language:"
 msgstr "🌐 Выберите предпочитаемый язык:"
 
-#: bot/bot.py:455 bot/bot.py:756 bot/bot.py:810 bot/bot.py:874
+#: habit/bot/bot.py:457 habit/bot/bot.py:758 habit/bot/bot.py:812
+#: habit/bot/bot.py:876
 #, python-brace-format
 msgid "❌ Error: {}"
 msgstr "❌ Ошибка: {}"
 
-#: bot/bot.py:460
+#: habit/bot/bot.py:462
 msgid ""
 "🎯 Habit Tracker - Main Menu\n"
 "\n"
@@ -161,7 +164,7 @@ msgstr ""
 "\n"
 "Выберите действие:"
 
-#: bot/bot.py:474
+#: habit/bot/bot.py:476
 msgid ""
 "📝 No active habits.\n"
 "\n"
@@ -171,7 +174,7 @@ msgstr ""
 "\n"
 "Создайте свою первую привычку!"
 
-#: bot/bot.py:480
+#: habit/bot/bot.py:482
 msgid ""
 "📋 Your active habits:\n"
 "\n"
@@ -179,15 +182,15 @@ msgstr ""
 "📋 Ваши активные привычки:\n"
 "\n"
 
-#: bot/bot.py:496
+#: habit/bot/bot.py:498
 msgid "Created"
 msgstr "Создано"
 
-#: bot/bot.py:498
+#: habit/bot/bot.py:500
 msgid "Click a habit to mark it as completed:"
 msgstr "Нажмите на привычку, чтобы отметить её выполненной:"
 
-#: bot/bot.py:507
+#: habit/bot/bot.py:509
 msgid ""
 "➕ Create a new habit\n"
 "\n"
@@ -207,11 +210,11 @@ msgstr ""
 "• Чтение\n"
 "• Медитация"
 
-#: bot/bot.py:528
+#: habit/bot/bot.py:530
 msgid "❌ Name too long (max 100 chars). Try again:"
 msgstr "❌ Название слишком длинное (макс. 100 символов). Попробуйте снова:"
 
-#: bot/bot.py:533
+#: habit/bot/bot.py:535
 #, python-brace-format
 msgid ""
 "✅ Name: {}\n"
@@ -222,11 +225,11 @@ msgstr ""
 "\n"
 "📖 **Шаг 2/3**: Выберите периодичность:"
 
-#: bot/bot.py:541
+#: habit/bot/bot.py:543
 msgid "❌ Description too long (max 500 chars). Try again:"
 msgstr "❌ Описание слишком длинное (макс. 500 символов). Попробуйте снова:"
 
-#: bot/bot.py:565
+#: habit/bot/bot.py:567
 #, python-brace-format
 msgid ""
 "✅ Name: {}\n"
@@ -239,11 +242,11 @@ msgstr ""
 "\n"
 "📖 **Шаг 3/3**: Введите описание (необязательно)"
 
-#: bot/bot.py:570
+#: habit/bot/bot.py:572
 msgid "Skip"
 msgstr "Пропустить"
 
-#: bot/bot.py:615 bot/bot.py:666
+#: habit/bot/bot.py:617 habit/bot/bot.py:668
 #, python-brace-format
 msgid ""
 "🎉 Habit created!\n"
@@ -262,24 +265,24 @@ msgstr ""
 "\n"
 "Начните отслеживать сейчас!"
 
-#: bot/bot.py:622 bot/bot.py:673
+#: habit/bot/bot.py:624 habit/bot/bot.py:675
 msgid "None"
 msgstr "Нет"
 
-#: bot/bot.py:623 bot/bot.py:674
+#: habit/bot/bot.py:625 habit/bot/bot.py:676
 msgid "frequency"
 msgstr "периодичность"
 
-#: bot/bot.py:634 bot/bot.py:685
+#: habit/bot/bot.py:636 habit/bot/bot.py:687
 #, python-brace-format
 msgid "❌ Error creating habit: {}"
 msgstr "❌ Ошибка при создании привычки: {}"
 
-#: bot/bot.py:696 bot/bot.py:849
+#: habit/bot/bot.py:698 habit/bot/bot.py:851
 msgid "❌ Habit not found"
 msgstr "❌ Привычка не найдена"
 
-#: bot/bot.py:710
+#: habit/bot/bot.py:712
 #, python-brace-format
 msgid ""
 "✅ {} already completed today!\n"
@@ -292,16 +295,16 @@ msgstr ""
 "⏰ Время: {}\n"
 "Так держать!"
 
-#: bot/bot.py:714 bot/bot.py:749
+#: habit/bot/bot.py:716 habit/bot/bot.py:751
 msgid "Back to Habits"
 msgstr "Назад к привычкам"
 
-#: bot/bot.py:723
+#: habit/bot/bot.py:725
 #, python-brace-format
 msgid "Completed by {}"
 msgstr "Выполнено {}"
 
-#: bot/bot.py:739
+#: habit/bot/bot.py:741
 #, python-brace-format
 msgid ""
 "🎉 {} completed!\n"
@@ -318,7 +321,7 @@ msgstr ""
 "🏆 Рекордная серия: {} дней\n"
 "📈 Всего: {} раз"
 
-#: bot/bot.py:767
+#: habit/bot/bot.py:769
 msgid ""
 "📊 No habits available.\n"
 "\n"
@@ -328,7 +331,7 @@ msgstr ""
 "\n"
 "Создайте свою первую привычку!"
 
-#: bot/bot.py:773
+#: habit/bot/bot.py:775
 msgid ""
 "📊 Habit Statistics:\n"
 "\n"
@@ -336,51 +339,52 @@ msgstr ""
 "📊 Статистика привычек:\n"
 "\n"
 
-#: bot/bot.py:789
+#: habit/bot/bot.py:791
 msgid "Completions"
 msgstr "Выполнения"
 
-#: bot/bot.py:790
+#: habit/bot/bot.py:792
 msgid "Streak"
 msgstr "Серия"
 
-#: bot/bot.py:790 bot/bot.py:791 bot/bot.py:792 bot/bot.py:803
+#: habit/bot/bot.py:792 habit/bot/bot.py:793 habit/bot/bot.py:794
+#: habit/bot/bot.py:805
 msgid "days"
 msgstr "дней"
 
-#: bot/bot.py:791
+#: habit/bot/bot.py:793
 msgid "Longest"
 msgstr "Рекорд"
 
-#: bot/bot.py:792
+#: habit/bot/bot.py:794
 msgid "Rate"
 msgstr "Процент"
 
-#: bot/bot.py:794
+#: habit/bot/bot.py:796
 msgid "Last"
 msgstr "Последнее"
 
-#: bot/bot.py:799
+#: habit/bot/bot.py:801
 msgid "Overall"
 msgstr "Общее"
 
-#: bot/bot.py:800
+#: habit/bot/bot.py:802
 msgid "Habits"
 msgstr "Привычки"
 
-#: bot/bot.py:801
+#: habit/bot/bot.py:803
 msgid "Today"
 msgstr "Сегодня"
 
-#: bot/bot.py:802
+#: habit/bot/bot.py:804
 msgid "Total"
 msgstr "Всего"
 
-#: bot/bot.py:803
+#: habit/bot/bot.py:805
 msgid "Streaks"
 msgstr "Серии"
 
-#: bot/bot.py:820
+#: habit/bot/bot.py:822
 msgid ""
 "📈 No habits for charts.\n"
 "\n"
@@ -390,7 +394,7 @@ msgstr ""
 "\n"
 "Создайте свою первую привычку!"
 
-#: bot/bot.py:826
+#: habit/bot/bot.py:828
 msgid ""
 "📈 Progress Charts\n"
 "\n"
@@ -400,7 +404,7 @@ msgstr ""
 "\n"
 "Выберите привычку или просмотрите обзор:"
 
-#: bot/bot.py:839
+#: habit/bot/bot.py:841
 msgid ""
 "📊 Overview of all habits\n"
 "\n"
@@ -410,11 +414,11 @@ msgstr ""
 "\n"
 "Показывает процент выполнения и серии."
 
-#: bot/bot.py:842 bot/bot.py:867
+#: habit/bot/bot.py:844 habit/bot/bot.py:869
 msgid "❌ Unable to generate chart"
 msgstr "❌ Не удалось создать график"
 
-#: bot/bot.py:856
+#: habit/bot/bot.py:858
 #, python-brace-format
 msgid ""
 "📈 Chart for {}\n"
@@ -431,15 +435,15 @@ msgstr ""
 "🏆 Рекорд: {} дней\n"
 "📈 Процент: {:.1f}%"
 
-#: bot/bot.py:869
+#: habit/bot/bot.py:871
 msgid "Back to Charts"
 msgstr "Назад к графикам"
 
-#: bot/bot.py:871
+#: habit/bot/bot.py:873
 msgid "📈 Chart sent above"
 msgstr "📈 График отправлен выше"
 
-#: bot/bot.py:880
+#: habit/bot/bot.py:882
 msgid ""
 "🆘 Habit Tracker Help\n"
 "\n"
@@ -481,11 +485,11 @@ msgstr ""
 "\n"
 "Удачи! 🚀"
 
-#: bot/bot.py:909
+#: habit/bot/bot.py:911
 msgid "❌ Bot error. Try again later."
 msgstr "❌ Ошибка бота. Попробуйте позже."
 
-#: bot/bot.py:914
+#: habit/bot/bot.py:916
 msgid "Starting bot..."
 msgstr "Запуск бота..."
 

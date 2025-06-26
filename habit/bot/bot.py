@@ -375,20 +375,20 @@ def get_translation(lang: str) -> callable:
     try:
         logger.info(f"Attempting to load translation for language: {lang}")
         _translations[lang] = gettext.translation(
-            "messages", "locale", languages=[lang]
+            "messages", "habit/locale", languages=[lang]
         )
         logger.info(f"Successfully loaded translation for {lang}")
     except FileNotFoundError as e:
         logger.error(f"Translation file for {lang} not found: {e}")
         logger.warning(f"Falling back to English for language: {lang}")
         _translations[lang] = gettext.translation(
-            "messages", "locale", languages=["en"], fallback=True
+            "messages", "habit/locale", languages=["en"], fallback=True
         )
     except Exception as e:
         logger.error(f"Error loading translation for {lang}: {e}")
         logger.warning(f"Falling back to English for language: {lang}")
         _translations[lang] = gettext.translation(
-            "messages", "locale", languages=["en"], fallback=True
+            "messages", "habit/locale", languages=["en"], fallback=True
         )
     return _translations[lang].gettext
 

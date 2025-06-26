@@ -3144,3 +3144,107 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2025-06-26 17:01:09,741 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
 2025-06-26 17:01:39,798 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
 2025-06-26 17:02:09,957 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:10:53,174 - __main__ - ERROR - ❌ TELEGRAM_BOT_TOKEN not found
+2025-06-26 17:11:32,764 - __main__ - INFO - Starting bot with token: 7648041706...
+2025-06-26 17:11:32,765 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:11:32,765 - __main__ - ERROR - Translation file for ru not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:11:32,765 - __main__ - WARNING - Falling back to English for language: ru
+2025-06-26 17:11:32,765 - __main__ - INFO - Starting bot...
+2025-06-26 17:11:32,785 - __main__ - INFO - SQLite database initialized
+2025-06-26 17:11:32,859 - __main__ - INFO - Bot configured successfully
+2025-06-26 17:11:32,859 - __main__ - INFO - Starting polling...
+2025-06-26 17:11:33,016 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getMe "HTTP/1.1 200 OK"
+2025-06-26 17:11:33,016 - telegram.ext.Application - INFO - Application started
+2025-06-26 17:11:33,060 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-26 17:11:33,060 - __main__ - INFO - Bot polling started successfully
+2025-06-26 17:12:01,784 - __main__ - INFO - Shutting down bot...
+2025-06-26 17:12:01,938 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:12:01,938 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-26 17:12:01,938 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-26 17:12:01,939 - __main__ - INFO - Bot shutdown completed
+2025-06-26 17:12:01,939 - __main__ - INFO - Bot stopped by user
+2025-06-26 17:14:24,914 - __main__ - INFO - Starting bot with token: 7648041706...
+2025-06-26 17:14:24,914 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:14:24,915 - __main__ - ERROR - Translation file for ru not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:14:24,915 - __main__ - WARNING - Falling back to English for language: ru
+2025-06-26 17:14:24,915 - __main__ - INFO - Starting bot...
+2025-06-26 17:14:24,916 - __main__ - INFO - SQLite database initialized
+2025-06-26 17:14:24,986 - __main__ - INFO - Bot configured successfully
+2025-06-26 17:14:24,986 - __main__ - INFO - Starting polling...
+2025-06-26 17:14:29,994 - __main__ - ERROR - Telegram API error during polling: Timed out
+2025-06-26 17:14:29,994 - __main__ - INFO - Shutting down bot...
+2025-06-26 17:14:29,994 - __main__ - ERROR - Failed to run bot: This Updater is not running!
+2025-06-26 17:14:40,003 - __main__ - ERROR - Fatal error: This Updater is not running!
+2025-06-26 17:16:42,554 - __main__ - INFO - Starting bot with token: 7648041706...
+2025-06-26 17:16:42,555 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:42,555 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:42,555 - __main__ - INFO - Запуск бота...
+2025-06-26 17:16:42,557 - __main__ - INFO - SQLite database initialized
+2025-06-26 17:16:42,628 - __main__ - INFO - Bot configured successfully
+2025-06-26 17:16:42,628 - __main__ - INFO - Starting polling...
+2025-06-26 17:16:42,815 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getMe "HTTP/1.1 200 OK"
+2025-06-26 17:16:42,816 - telegram.ext.Application - INFO - Application started
+2025-06-26 17:16:42,862 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-26 17:16:42,862 - __main__ - INFO - Bot polling started successfully
+2025-06-26 17:16:48,481 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:16:48,485 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:48,485 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:48,486 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:48,487 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:48,487 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:48,487 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:48,487 - __main__ - INFO - Language keyboard created: [[InlineKeyboardButton(callback_data='lang_ru', text='🇷🇺 Русский')], [InlineKeyboardButton(callback_data='lang_en', text='🇬🇧 English')]]
+2025-06-26 17:16:48,661 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendMessage "HTTP/1.1 200 OK"
+2025-06-26 17:16:48,662 - __main__ - INFO - Displayed language selection for new user 1958044740
+2025-06-26 17:16:52,077 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:16:52,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:16:52,129 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:52,129 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:52,129 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:52,130 - __main__ - INFO - Callback query: lang_ru from user 1958044740
+2025-06-26 17:16:52,145 - __main__ - INFO - Set language for user 1958044740 to ru
+2025-06-26 17:16:52,145 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:52,145 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:52,145 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:52,145 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:52,145 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:52,146 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:52,213 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:16:52,213 - __main__ - INFO - User 1958044740 selected language: ru
+2025-06-26 17:16:52,213 - __main__ - INFO - Main menu buttons for ru: ['Мои привычки', 'Создать привычку', 'Статистика', 'Графики', 'Помощь']
+2025-06-26 17:16:52,213 - __main__ - INFO - Test translation for 'Welcome to Habit Tracker!': Добро пожаловать в Habit Tracker!
+2025-06-26 17:16:56,081 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:16:56,132 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:16:56,134 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:56,134 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:56,134 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:56,134 - __main__ - INFO - Callback query: show_charts from user 1958044740
+2025-06-26 17:16:56,134 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:56,134 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:56,135 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:56,246 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:16:58,380 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:16:58,479 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:16:58,481 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Callback query: main_menu from user 1958044740
+2025-06-26 17:16:58,481 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Clearing translation cache for language: ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Attempting to load translation for language: ru
+2025-06-26 17:16:58,481 - __main__ - INFO - Successfully loaded translation for ru
+2025-06-26 17:16:58,565 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:17:28,428 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:17:58,477 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:18:28,528 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:18:58,578 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:19:28,628 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:19:58,677 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:20:11,857 - __main__ - INFO - Shutting down bot...
+2025-06-26 17:20:12,013 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:20:12,013 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-26 17:20:12,013 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-26 17:20:12,013 - __main__ - INFO - Bot shutdown completed
+2025-06-26 17:20:12,014 - __main__ - INFO - Bot stopped by user

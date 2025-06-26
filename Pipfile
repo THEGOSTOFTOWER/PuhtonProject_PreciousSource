@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flake8 = "*"
+pydocstyle = "*"
+doit = "*"
+babel = "*"
+matplotlib = "*"
+python-telegram-bot = "*"
+aiosqlite = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
