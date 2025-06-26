@@ -1,7 +1,9 @@
-#!/usr/bin/env python3
 """
-Advanced Telegram bot for Habit Tracker with charts and language selection.
+Telegram bot for Habit Tracker with charts and language selection.
+
+Authors: Kirnev Iurii and Vargin Artem
 """
+
 import asyncio
 import os
 import sys
@@ -909,7 +911,7 @@ async def error_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         await update.effective_message.reply_text(_("❌ Bot error. Try again later."))
 
 async def main() -> None:
-    """Main function to run the bot."""
+    """Run main function in the bot."""
     _ = get_translation(DEFAULT_LANGUAGE)
     logger.info(_("Starting bot..."))
     try:

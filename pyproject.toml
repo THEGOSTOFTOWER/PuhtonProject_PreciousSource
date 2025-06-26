@@ -33,14 +33,6 @@ version = "0.1.0"
 description = "Habit tracking application with Telegram bot and FastAPI server"
 authors = ["Yuri Kirnev <your.email@example.com>"]
 
-[tool.flake8]
-max-line-length = 120
-exclude = ["venv/", "dist/", "build/"]
-ignore = ["E203", "W503"]
-
-[tool.pydocstyle]
-convention = "pep257"
-ignore = ["D107"]
 
 [tool.mypy]
 strict = true
