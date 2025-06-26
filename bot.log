@@ -3248,3 +3248,344 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2025-06-26 17:20:12,013 - telegram.ext.Application - INFO - Application.stop() complete
 2025-06-26 17:20:12,013 - __main__ - INFO - Bot shutdown completed
 2025-06-26 17:20:12,014 - __main__ - INFO - Bot stopped by user
+2025-06-26 17:24:57,301 - habit.bot - INFO - Starting bot with token: 7648041706...
+2025-06-26 17:24:57,301 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:24:57,302 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:24:57,302 - habit.bot - INFO - Запуск бота...
+2025-06-26 17:24:57,303 - habit.bot - INFO - SQLite database initialized
+2025-06-26 17:24:57,375 - habit.bot - INFO - Bot configured successfully
+2025-06-26 17:24:57,375 - habit.bot - INFO - Starting polling...
+2025-06-26 17:24:57,538 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getMe "HTTP/1.1 200 OK"
+2025-06-26 17:24:57,539 - telegram.ext.Application - INFO - Application started
+2025-06-26 17:24:57,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/deleteWebhook "HTTP/1.1 200 OK"
+2025-06-26 17:24:57,584 - habit.bot - INFO - Bot polling started successfully
+2025-06-26 17:25:03,719 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:03,722 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:03,723 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:03,723 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:03,724 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:03,724 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:03,724 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:08,731 - habit.bot - ERROR - Update Update(message=Message(channel_chat_created=False, chat=Chat(first_name='Artyom', id=1958044740, last_name='Vargin', type=<ChatType.PRIVATE>, username='thegostoftower'), date=datetime.datetime(2025, 6, 26, 14, 25, 3, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=6, offset=0, type=<MessageEntityType.BOT_COMMAND>),), from_user=User(first_name='Artyom', id=1958044740, is_bot=False, language_code='ru', last_name='Vargin', username='thegostoftower'), group_chat_created=False, message_id=246, supergroup_chat_created=False, text='/start'), update_id=90883703) caused error: Timed out
+2025-06-26 17:25:08,731 - habit.bot - ERROR - Telegram API error: Timed out
+2025-06-26 17:25:08,732 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:08,732 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:08,732 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:08,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendMessage "HTTP/1.1 200 OK"
+2025-06-26 17:25:13,277 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:13,280 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:13,280 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:13,280 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:13,281 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:13,281 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:13,281 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:13,402 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendMessage "HTTP/1.1 200 OK"
+2025-06-26 17:25:13,403 - habit.bot - INFO - Displayed main menu for user 1958044740
+2025-06-26 17:25:43,323 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:43,805 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:43,975 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:25:43,978 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:43,978 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:43,978 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:43,978 - habit.bot - INFO - Callback query: show_habits from user 1958044740
+2025-06-26 17:25:43,978 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:43,978 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:43,978 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:44,055 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:25:45,596 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:45,675 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:25:45,676 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Callback query: main_menu from user 1958044740
+2025-06-26 17:25:45,677 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:45,677 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:45,771 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:25:47,286 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:47,374 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:25:47,375 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:47,375 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:47,375 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:47,375 - habit.bot - INFO - Callback query: create_habit from user 1958044740
+2025-06-26 17:25:47,375 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:47,375 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:47,376 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:47,515 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:25:51,143 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:51,144 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:51,144 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:51,144 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:51,144 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:51,144 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:51,144 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:51,218 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendMessage "HTTP/1.1 200 OK"
+2025-06-26 17:25:53,032 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:53,086 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:25:53,087 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:53,087 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:53,087 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:53,087 - habit.bot - INFO - Callback query: freq_weekly from user 1958044740
+2025-06-26 17:25:53,087 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:53,087 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:53,088 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:53,149 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:25:55,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:25:55,335 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:25:55,337 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Callback query: skip_description from user 1958044740
+2025-06-26 17:25:55,337 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:25:55,337 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:25:55,430 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:00,775 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:00,933 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:00,934 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:00,934 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:00,935 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:00,935 - habit.bot - INFO - Callback query: show_habits from user 1958044740
+2025-06-26 17:26:00,935 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:00,935 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:00,935 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:00,937 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:00,937 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:00,937 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:01,001 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:02,733 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:02,786 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:02,788 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:02,788 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:02,788 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:02,788 - habit.bot - INFO - Callback query: complete_c5b85cf9-3ca1-42a1-8320-9e0120be4649 from user 1958044740
+2025-06-26 17:26:02,788 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:02,788 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:02,788 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:02,817 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:02,817 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:02,817 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:02,881 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:07,058 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:07,112 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:07,113 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:07,113 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:07,113 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:07,113 - habit.bot - INFO - Callback query: show_habits from user 1958044740
+2025-06-26 17:26:07,113 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:07,113 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:07,113 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:07,115 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:07,115 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:07,115 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:07,176 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:09,346 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:09,456 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:09,457 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Callback query: main_menu from user 1958044740
+2025-06-26 17:26:09,457 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:09,457 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:09,458 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:09,564 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:16,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:16,780 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:16,780 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:16,780 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:16,780 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:16,780 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:16,781 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:16,781 - habit.bot - INFO - Language keyboard created: [[InlineKeyboardButton(callback_data='lang_ru', text='🇷🇺 Русский')], [InlineKeyboardButton(callback_data='lang_en', text='🇬🇧 English')]]
+2025-06-26 17:26:16,956 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendMessage "HTTP/1.1 200 OK"
+2025-06-26 17:26:16,957 - habit.bot - INFO - Displayed language selection for user 1958044740
+2025-06-26 17:26:18,878 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:18,927 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:18,928 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:26:18,928 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:26:18,928 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:26:18,928 - habit.bot - INFO - Callback query: lang_en from user 1958044740
+2025-06-26 17:26:18,951 - habit.bot - INFO - Set language for user 1958044740 to en
+2025-06-26 17:26:18,952 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:18,952 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:18,952 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:18,952 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:18,952 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:18,952 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:18,952 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:19,031 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:19,032 - habit.bot - INFO - User 1958044740 selected language: en
+2025-06-26 17:26:19,032 - habit.bot - INFO - Main menu buttons for en: ['My Habits', 'Create Habit', 'Statistics', 'Charts', 'Help']
+2025-06-26 17:26:19,032 - habit.bot - INFO - Test translation for 'Welcome to Habit Tracker!': Welcome to Habit Tracker!
+2025-06-26 17:26:20,591 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:20,664 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:20,665 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:20,665 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:20,665 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:20,665 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:20,665 - habit.bot - INFO - Callback query: show_habits from user 1958044740
+2025-06-26 17:26:20,665 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:20,665 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:20,665 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:20,665 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:20,667 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:20,667 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:20,667 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:20,667 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:20,754 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:24,023 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:24,079 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:24,081 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:24,081 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:24,081 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:24,081 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:24,081 - habit.bot - INFO - Callback query: complete_c5b85cf9-3ca1-42a1-8320-9e0120be4649 from user 1958044740
+2025-06-26 17:26:24,081 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:24,081 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:24,081 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:24,081 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:24,148 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:26,096 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:26,147 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:26,148 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:26,148 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:26,148 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:26,148 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:26,148 - habit.bot - INFO - Callback query: show_habits from user 1958044740
+2025-06-26 17:26:26,148 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:26,148 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:26,148 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:26,148 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:26,149 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:26,149 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:26,149 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:26,150 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:26,220 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:27,012 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:27,119 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:27,120 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:27,120 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:27,120 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:27,120 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:27,120 - habit.bot - INFO - Callback query: main_menu from user 1958044740
+2025-06-26 17:26:27,120 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:27,120 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:27,120 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:27,120 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:27,121 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:27,121 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:27,121 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:27,121 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:27,225 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:32,726 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:32,947 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:32,948 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:32,949 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:32,949 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:32,949 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:32,949 - habit.bot - INFO - Callback query: show_charts from user 1958044740
+2025-06-26 17:26:32,949 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:32,949 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:32,949 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:32,949 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:32,950 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:32,950 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:32,950 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:32,950 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:33,089 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:26:34,601 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:26:34,653 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:26:34,654 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:34,654 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:34,654 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:34,654 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:34,655 - habit.bot - INFO - Callback query: chart_c5b85cf9-3ca1-42a1-8320-9e0120be4649 from user 1958044740
+2025-06-26 17:26:34,655 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:34,655 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:34,655 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:34,655 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:34,656 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:34,656 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:34,656 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:34,656 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:34,881 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:26:34,881 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:26:34,881 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:26:34,881 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:26:35,231 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendPhoto "HTTP/1.1 200 OK"
+2025-06-26 17:26:35,326 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:27:02,189 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:27:02,192 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:27:02,192 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:27:02,192 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:27:02,193 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:27:02,193 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:02,193 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:02,193 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:02,193 - habit.bot - INFO - Language keyboard created: [[InlineKeyboardButton(callback_data='lang_ru', text='🇷🇺 Русский')], [InlineKeyboardButton(callback_data='lang_en', text='🇬🇧 English')]]
+2025-06-26 17:27:02,404 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendMessage "HTTP/1.1 200 OK"
+2025-06-26 17:27:02,404 - habit.bot - INFO - Displayed language selection for user 1958044740
+2025-06-26 17:27:04,409 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:27:04,584 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:27:04,585 - habit.bot - INFO - Clearing translation cache for language: en
+2025-06-26 17:27:04,585 - habit.bot - INFO - Attempting to load translation for language: en
+2025-06-26 17:27:04,585 - habit.bot - ERROR - Translation file for en not found: [Errno 2] No translation file found for domain: 'messages'
+2025-06-26 17:27:04,585 - habit.bot - WARNING - Falling back to English for language: en
+2025-06-26 17:27:04,585 - habit.bot - INFO - Callback query: lang_ru from user 1958044740
+2025-06-26 17:27:04,597 - habit.bot - INFO - Set language for user 1958044740 to ru
+2025-06-26 17:27:04,597 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:04,597 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:04,597 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:04,597 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:04,597 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:04,597 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:04,756 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:27:04,756 - habit.bot - INFO - User 1958044740 selected language: ru
+2025-06-26 17:27:04,757 - habit.bot - INFO - Main menu buttons for ru: ['Мои привычки', 'Создать привычку', 'Статистика', 'Графики', 'Помощь']
+2025-06-26 17:27:04,757 - habit.bot - INFO - Test translation for 'Welcome to Habit Tracker!': Добро пожаловать в Habit Tracker!
+2025-06-26 17:27:05,554 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:27:05,607 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:27:05,608 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:05,608 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Callback query: show_charts from user 1958044740
+2025-06-26 17:27:05,609 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:05,609 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:05,678 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:27:07,643 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:27:07,702 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/answerCallbackQuery "HTTP/1.1 200 OK"
+2025-06-26 17:27:07,704 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:07,704 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:07,704 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:07,704 - habit.bot - INFO - Callback query: chart_c5b85cf9-3ca1-42a1-8320-9e0120be4649 from user 1958044740
+2025-06-26 17:27:07,704 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:07,704 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:07,704 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:07,705 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:07,705 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:07,705 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:07,900 - habit.bot - INFO - Clearing translation cache for language: ru
+2025-06-26 17:27:07,900 - habit.bot - INFO - Attempting to load translation for language: ru
+2025-06-26 17:27:07,900 - habit.bot - INFO - Successfully loaded translation for ru
+2025-06-26 17:27:08,304 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/sendPhoto "HTTP/1.1 200 OK"
+2025-06-26 17:27:08,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/editMessageText "HTTP/1.1 200 OK"
+2025-06-26 17:27:37,698 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:27:52,722 - habit.bot - INFO - Shutting down bot...
+2025-06-26 17:27:52,875 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y/getUpdates "HTTP/1.1 200 OK"
+2025-06-26 17:27:52,876 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-06-26 17:27:52,876 - telegram.ext.Application - INFO - Application.stop() complete
+2025-06-26 17:27:52,876 - habit.bot - INFO - Bot shutdown completed
+2025-06-26 17:27:52,877 - habit.bot - INFO - Bot stopped by user
