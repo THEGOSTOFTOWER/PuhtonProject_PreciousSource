@@ -12,6 +12,7 @@ matplotlib = "*"
 python-telegram-bot = "*"
 aiosqlite = "*"
 python-dotenv = "*"
+sphinx = "*"
 
 [dev-packages]
 

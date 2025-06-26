@@ -37,6 +37,7 @@ logging.basicConfig(
     handlers=[logging.FileHandler("bot.log"), logging.StreamHandler()]
 )
 logger = logging.getLogger(__name__)
+logger.setLevel(logging.CRITICAL)
 
 # Load environment variables
 load_dotenv()
