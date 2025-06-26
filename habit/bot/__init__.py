@@ -5,13 +5,12 @@ Authors: Kirnev Iurii and Vargin Artem
 """
 
 import asyncio
-import os
 import sys
 import io
 import logging
 from pathlib import Path
 from datetime import datetime, timedelta
-from typing import Dict, List, Optional
+from typing import Dict, Optional
 import uuid
 import gettext
 import matplotlib
@@ -44,11 +43,11 @@ logger.setLevel(logging.CRITICAL)
 load_dotenv()
 
 # Configuration
-TELEGRAM_BOT_TOKEN='7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y'
+TELEGRAM_BOT_TOKEN = '7648041706:AAHC30DqMZ5XKCGpXin3m10dDtcMFYCeG_Y'
 
-DB_PATH='habits.db'
+DB_PATH = 'habits.db'
 
-DEFAULT_LANGUAGE='ru'
+DEFAULT_LANGUAGE = 'ru'
 
 BASE_DIR = Path(__file__).parent.parent
 
@@ -938,7 +937,7 @@ async def main() -> None:
             await application.updater.start_polling(
                 drop_pending_updates=True,
                 allowed_updates=Update.ALL_TYPES,
-                timeout=30
+                timeout=200
             )
             logger.info("Bot polling started successfully")
             # Keep the application running
@@ -961,6 +960,7 @@ async def main() -> None:
         raise
 
 def run_bot():
+    """Initialize bot."""
     try:
         asyncio.run(main())
     except KeyboardInterrupt:

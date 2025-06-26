@@ -27,7 +27,6 @@ def task_po():
         'actions': [f"pybabel update -l ru -D messages -i {PODEST}/messages.pot -d {PODEST}"],
         'file_dep': [f'{PODEST}/messages.pot'],
         'targets': [f"{PODEST}/ru/LC_MESSAGES/messages.po"],
-        'task_dep': ['pot']
     }
 
 def task_mo():

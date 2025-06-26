@@ -1,16 +1,17 @@
+"""Test file."""
+
 import unittest
 from unittest.mock import AsyncMock, MagicMock, patch
-from telegram import Update, InlineKeyboardMarkup
-import logging
+from telegram import InlineKeyboardMarkup
 from . import (
     set_user_language,
     get_charts_keyboard,
     get_language_keyboard,
     start_command,
-    DB_PATH
 )
 
 class TestHabitBotFunctions(unittest.IsolatedAsyncioTestCase):
+    """Test class."""
 
     @patch("aiosqlite.connect")
     async def test_set_user_language_executes_correct_query(self, mock_connect):
