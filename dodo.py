@@ -109,3 +109,10 @@ def task_clean_all():
         ],
         'verbosity': 2,
     }
+
+def task_test():
+    """Run tests"""
+    return {
+        'task_dep': ['il8n'],
+        "actions": ["python3 -m unittest habit/bot/test.py"],
+    }

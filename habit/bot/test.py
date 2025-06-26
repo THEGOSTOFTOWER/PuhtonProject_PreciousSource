@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import AsyncMock, MagicMock, patch
 from telegram import Update, InlineKeyboardMarkup
 import logging
-from init import (
+from . import (
     set_user_language,
     get_charts_keyboard,
     get_language_keyboard,
