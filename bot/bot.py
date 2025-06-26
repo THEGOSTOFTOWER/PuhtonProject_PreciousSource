@@ -51,10 +51,6 @@ if not TELEGRAM_BOT_TOKEN:
 
 logger.info(f"Starting bot with token: {TELEGRAM_BOT_TOKEN[:10]}...")
 
-
-
-
-
 async def init_db() -> None:
     """Initialize SQLite database."""
     try:
@@ -149,10 +145,10 @@ async def get_habits_keyboard(lang: str = DEFAULT_LANGUAGE) -> Optional[InlineKe
         return None
 
     keyboard = [[InlineKeyboardButton(f"✅ {name}", callback_data=f"complete_{id}")] for id, name in habits]
-    keyboard.append([InlineKeyboardButton(_("Main Menu"), id="main_menu")])
+    keyboard.append([InlineKeyboardButton(_("Main Menu"), callback_data="main_menu")])
     return InlineKeyboardMarkup(keyboard)
 
-async def get_charts_keyboard(lang: Optional[str] = DEFAULT_LANGUAGE) -> Optional[InlineKeyboardButton]:
+async def get_charts_keyboard(lang: Optional[str] = DEFAULT_LANGUAGE) -> Optional[InlineKeyboardMarkup]:
     """Create keyboard for chart selection."""
     _ = get_translation(lang)
     async with aiosqlite.connect(DB_PATH) as db:
@@ -365,9 +361,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         await update.message.reply_text(message, reply_markup=reply_markup)
         logger.info(f"Displayed main menu for user {user_id}")
 
-
 _translations: Dict[str, gettext.GNUTranslations] = {}
-
 
 def get_translation(lang: str) -> callable:
     """Get translation function for the specified language."""
@@ -398,22 +392,21 @@ def get_translation(lang: str) -> callable:
 
 async def handle_language_selection(query: Update.callback_query, user_id: int, lang: str) -> None:
     """Handle language selection."""
-    _ = get_translation(lang)
     new_lang = query.data.replace("lang_", "")
     await set_user_language(user_id, new_lang)
-    # Force reload translation for new language
-    _ = get_translation(new_lang)  # Update translation
+    _ = get_translation(new_lang)  # Force reload translation
     user_name = query.from_user.first_name or _("Friend")
     message = _(
         "🎯 Hello, {}! Language set to {}.\n\n"
         "Track your habits with analytics and charts.\n"
         "Choose an action:"
-    ).format(user_name, _("Русский") if new_lang == "ru" else _("English"))
+    ).format(user_name, "Русский" if new_lang == "ru" else "English")
     reply_markup = get_main_menu_keyboard(new_lang)
     await query.edit_message_text(message, reply_markup=reply_markup)
     logger.info(f"User {user_id} selected language: {new_lang}")
-    # Debug: Log the translated main menu buttons
     logger.info(f"Main menu buttons for {new_lang}: {[button.text for row in reply_markup.inline_keyboard for button in row]}")
+    logger.info(f"Test translation for 'Welcome to Habit Tracker!': {_('Welcome to Habit Tracker!')}")
+
 async def language_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle /language command."""
     user_id = update.effective_user.id
@@ -460,22 +453,6 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
     except Exception as e:
         logger.error(f"Error in button_callback: {e}")
         await query.message.reply_text(_("❌ Error: {}").format(str(e)))
-
-async def handle_language_selection(query: Update.callback_query, user_id: int, lang: str) -> None:
-    """Handle language selection."""
-    _ = get_translation(lang)
-    new_lang = query.data.replace("lang_", "")
-    await set_user_language(user_id, new_lang)
-    _ = get_translation(new_lang)  # Update translation
-    user_name = query.from_user.first_name or _("Friend")
-    message = _(
-        "🎯 Hello, {}! Language set to {}.\n\n"
-        "Track your habits with analytics and charts.\n"
-        "Choose an action:"
-    ).format(user_name, _("English") if new_lang == "en" else _("Русский"))
-    reply_markup = get_main_menu_keyboard(new_lang)
-    await query.edit_message_text(message, reply_markup=reply_markup)
-    logger.info(f"User {user_id} selected language: {new_lang}")
 
 async def show_main_menu(query: Update.callback_query, lang: str) -> None:
     """Show main menu."""
